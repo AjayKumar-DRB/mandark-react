@@ -1,0 +1,49 @@
+.game-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .time-left, .score {
+    font-size: 24px;
+    margin: 10px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .game-box {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .highlight {
+    background-color: lightgreen; /* Highlight the box containing the keyword */
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover {
+    background-color: #0056b3;
+  }
+  

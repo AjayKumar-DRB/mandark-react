@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Apply fonts and remove margin from the body */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+/* Styles for the main/parent container */
+.bucket-transfer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Set component title to center */
+.bucket-wrapper {
+  text-align: center;
+}
+
+.bucket {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 20px;
+  width: 12rem;
+  height: 22rem;
+  background-color: #f9f9f9;
+}
+
+/* Styles for the heading of each bucket */
+.bucket h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Styles for the list items */
+.bucket ul {
+  list-style-type: none;
+  height: 18rem;
+  overflow-y: auto;
+  padding: 0;
+}
+
+/* Styles for the checkbox and item text */
+.bucket li {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+/* Styles for the button container */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the buttons */
+.button-container button {
+  margin: 5px 0;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+.button-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Styling for list items and buttons */
+.bucket ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bucket li {
+  margin: 5px 0;
+}
+
+.item-button {
+  padding: 5px 10px;
+  border: 1px solid #007bff;
+  background-color: #fff;
+  color: #007bff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* Selected item styling */
+.item-button.selected {
+  background-color: #007bff;
+  color: #fff;
+}

@@ -1,0 +1,365 @@
+[
+    {
+      "name": "Projects",
+      "children": [
+        {
+          "name": "E-Commerce App",
+          "children": [
+            {
+              "name": "src",
+              "children": [
+                { "name": "components" },
+                { "name": "pages" },
+                { "name": "utils" },
+                { "name": "services" }
+              ]
+            },
+            {
+              "name": "public",
+              "children": [
+                { "name": "index.html" },
+                { "name": "favicon.ico" },
+                { "name": "robots.txt" },
+                { "name": "manifest.json" }
+              ]
+            },
+            {
+              "name": "config",
+              "children": [
+                { "name": "webpack.config.js" },
+                { "name": "babel.config.js" },
+                { "name": "eslint.config.js" },
+                { "name": "tsconfig.json" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Portfolio Website",
+          "children": [
+            {
+              "name": "src",
+              "children": [
+                { "name": "components" },
+                { "name": "assets" },
+                { "name": "styles" },
+                { "name": "api" }
+              ]
+            },
+            {
+              "name": "public",
+              "children": [
+                { "name": "index.html" },
+                { "name": "logo.png" },
+                { "name": "favicon.ico" },
+                { "name": "manifest.json" }
+              ]
+            },
+            {
+              "name": "docs",
+              "children": [
+                { "name": "README.md" },
+                { "name": "CHANGELOG.md" },
+                { "name": "CONTRIBUTING.md" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mobile App",
+          "children": [
+            {
+              "name": "src",
+              "children": [
+                { "name": "screens" },
+                { "name": "components" },
+                { "name": "utils" }
+              ]
+            },
+            {
+              "name": "assets",
+              "children": [
+                { "name": "images" },
+                { "name": "icons" },
+                { "name": "fonts" }
+              ]
+            },
+            {
+              "name": "config",
+              "children": [
+                { "name": "env.config.js" },
+                { "name": "app.json" },
+                { "name": "metro.config.js" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Movies",
+      "children": [
+        {
+          "name": "Action",
+          "children": [
+            {
+              "name": "Die Hard",
+              "children": [
+                { "name": "Cast" },
+                { "name": "Plot" },
+                { "name": "Reviews" },
+                { "name": "Trivia" }
+              ]
+            },
+            {
+              "name": "Mad Max: Fury Road",
+              "children": [
+                { "name": "Cast" },
+                { "name": "Plot" },
+                { "name": "Behind the Scenes" }
+              ]
+            },
+            {
+              "name": "John Wick",
+              "children": [
+                { "name": "Cast" },
+                { "name": "Plot" },
+                { "name": "Trivia" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Comedy",
+          "children": [
+            {
+              "name": "The Grand Budapest Hotel",
+              "children": [
+                { "name": "Cast" },
+                { "name": "Plot" },
+                { "name": "Soundtrack" }
+              ]
+            },
+            {
+              "name": "Superbad",
+              "children": [
+                { "name": "Cast" },
+                { "name": "Plot" },
+                { "name": "Reviews" }
+              ]
+            },
+            {
+              "name": "Dumb and Dumber",
+              "children": [
+                { "name": "Cast" },
+                { "name": "Plot" },
+                { "name": "Soundtrack" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Drama",
+          "children": [
+            {
+              "name": "The Godfather",
+              "children": [
+                { "name": "Cast" },
+                { "name": "Plot" },
+                { "name": "Trivia" }
+              ]
+            },
+            {
+              "name": "Forrest Gump",
+              "children": [
+                { "name": "Cast" },
+                { "name": "Plot" },
+                { "name": "Quotes" }
+              ]
+            },
+            {
+              "name": "The Shawshank Redemption",
+              "children": [
+                { "name": "Cast" },
+                { "name": "Plot" },
+                { "name": "Reviews" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anime",
+      "children": [
+        {
+          "name": "Shonen",
+          "children": [
+            {
+              "name": "Naruto",
+              "children": [
+                { "name": "Episodes" },
+                { "name": "Characters" },
+                { "name": "Plot Arcs" },
+                { "name": "Trivia" }
+              ]
+            },
+            {
+              "name": "Fairy Tail",
+              "children": [
+                { "name": "Episodes" },
+                { "name": "Characters" },
+                { "name": "Guilds" }
+              ]
+            },
+            {
+                "name": "One Piece",
+                "children": [
+                  { "name": "Episodes" },
+                  { "name": "Characters" },
+                  { "name": "Story Arcs" }
+                ]
+              },
+            {
+              "name": "Dragon Ball Z",
+              "children": [
+                { "name": "Episodes" },
+                { "name": "Characters" },
+                { "name": "Transformations" }
+              ]
+            },
+            {
+              "name": "Yu Yu Hakusho",
+              "children": [
+                { "name": "Episodes" },
+                { "name": "Characters" },
+                { "name": "Affiliation" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Isekai",
+          "children": [
+            {
+              "name": "Re:Zero",
+              "children": [
+                { "name": "Episodes" },
+                { "name": "Characters" },
+                { "name": "Worlds" }
+              ]
+            },
+            {
+              "name": "Sword Art Online",
+              "children": [
+                { "name": "Episodes" },
+                { "name": "Characters" },
+                { "name": "Game Worlds" }
+              ]
+            },
+            {
+              "name": "No Game No Life",
+              "children": [
+                { "name": "Episodes" },
+                { "name": "Characters" },
+                { "name": "Plot" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sports",
+          "children": [
+            {
+              "name": "Haikyuu",
+              "children": [
+                { "name": "Episodes" },
+                { "name": "Characters" },
+                { "name": "Teams" }
+              ]
+            },
+            {
+              "name": "Kuroko's Basketball",
+              "children": [
+                { "name": "Episodes" },
+                { "name": "Characters" },
+                { "name": "Teams" }
+              ]
+            },
+            {
+              "name": "Yuri on Ice",
+              "children": [
+                { "name": "Episodes" },
+                { "name": "Characters" },
+                { "name": "Competitions" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tasks",
+      "children": [
+        {
+          "name": "Work",
+          "children": [
+            {
+              "name": "Project A",
+              "children": [
+                { "name": "To-do" },
+                { "name": "In Progress" },
+                { "name": "Completed" }
+              ]
+            },
+            {
+              "name": "Project B",
+              "children": [
+                { "name": "To-do" },
+                { "name": "In Progress" },
+                { "name": "Review" }
+              ]
+            },
+            {
+              "name": "Project C",
+              "children": [
+                { "name": "To-do" },
+                { "name": "In Progress" },
+                { "name": "Testing" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Personal",
+          "children": [
+            {
+              "name": "Shopping",
+              "children": [
+                { "name": "Groceries" },
+                { "name": "Clothes" },
+                { "name": "Electronics" }
+              ]
+            },
+            {
+              "name": "Hobbies",
+              "children": [
+                { "name": "Reading" },
+                { "name": "Gaming" },
+                { "name": "Gardening" }
+              ]
+            },
+            {
+              "name": "Fitness",
+              "children": [
+                { "name": "Workout Plans" },
+                { "name": "Diet" },
+                { "name": "Goals" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  

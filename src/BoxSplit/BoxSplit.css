@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0; /* Remove gap to make inner boxes flush */
+  position: relative;
+  box-shadow: 0 0 0 1px black; /* Outer border only */
+}
+
+.box > .box {
+  box-shadow: inset 0 0 0 1px black; /* Inner borders using inset shadow */
+  cursor: pointer;
+}

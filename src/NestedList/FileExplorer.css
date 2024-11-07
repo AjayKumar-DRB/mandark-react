@@ -1,0 +1,43 @@
+/* Main container for the horizontal file explorer */
+.horizontal-explorer-container {
+  display: flex;
+  justify-self: center;
+  overflow-x: auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width: fit-content;
+  white-space: nowrap;
+}
+
+/* Each column in the explorer */
+.horizontal-explorer-column {
+  min-width: 200px;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.horizontal-explorer-column:last-child {
+  border-right: none; /* Remove border from last column */
+}
+
+/* Styling for each item in the column */
+.horizontal-explorer-item {
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  color: #333;
+}
+
+/* Hover effect for list items */
+.horizontal-explorer-item:hover {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+/* Active selection highlight */
+.horizontal-explorer-item.selected {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}

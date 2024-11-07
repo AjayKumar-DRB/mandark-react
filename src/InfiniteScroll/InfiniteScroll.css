@@ -1,0 +1,13 @@
+/* InfiniteScroll.css */
+.content-container {
+    padding: 20px;
+}
+  
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #007BFF;
+  padding: 20px;
+}
+
+  
